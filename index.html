@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NAFS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">NAFS</div>
+
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">How it works</a>
+      <a href="#">About</a>
+    </div>
+
+    <button class="btn-outline">Get Started</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1>
+        Train your body.<br>
+        <span>Master your self.</span>
+      </h1>
+
+      <p>
+        NAFS is your AI fitness coach.<br>
+        Personalized workouts, real support,<br>
+        and the discipline to become your best.
+      </p>
+
+      <div class="buttons">
+        <button class="btn-primary">Start Your Journey</button>
+        <button class="btn-secondary">Watch Video</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI COACH SECTION -->
+  <section class="coach">
+    <h2>Your AI Coach</h2>
+
+    <input type="text" id="userInput" placeholder="Ask your coach...">
+    <button onclick="askCoach()">Ask</button>
+
+    <p id="response"></p>
+  </section>
+
+  <!-- JS FILE -->
+  <script src="script.js"></script>
+
+</body>
+</html>
